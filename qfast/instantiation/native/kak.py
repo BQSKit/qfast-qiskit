@@ -23,7 +23,7 @@ class KAKTool ( nativetool.NativeTool ):
 
         return 2
 
-    def synthesize ( self, utry ):
+    def synthesize ( self, utry, **kwargs ):
         """
         Synthesis function with QISKit's KAK implementation.
 

@@ -25,7 +25,7 @@ class QiskitTool ( nativetool.NativeTool ):
         # however, solution quality is best at 3 qubits.
         return 3
 
-    def synthesize ( self, utry ):
+    def synthesize ( self, utry, **kwargs ):
         """
         Synthesis function with this tool.
 
